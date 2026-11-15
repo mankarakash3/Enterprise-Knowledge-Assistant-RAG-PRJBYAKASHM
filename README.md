@@ -1,4 +1,5 @@
 # Enterprise Knowledge Assistant – RAG Application
+<img width="850" height="532" alt="image" src="https://github.com/user-attachments/assets/1c9f4172-0317-4729-a963-948350f551bb" />
 
 An enterprise document question-answering application built using **ASP.NET Core, React, OpenAI APIs, Azure SQL Vector Search and Azure Blob Storage**.
 
