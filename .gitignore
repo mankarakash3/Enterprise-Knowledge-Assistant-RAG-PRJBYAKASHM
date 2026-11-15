@@ -1,0 +1,39 @@
+
+# .NET build files
+**/bin/
+**/obj/
+.vs/
+*.user
+*.suo
+
+# Sensitive configuration
+**/appsettings.json
+**/appsettings.Development.json
+**/appsettings.*.local.json
+**/secrets.json
+**/secrets/
+**/Properties/PublishProfiles/
+
+# Certificates and credentials
+*.pfx
+*.p12
+*.pem
+*.key
+*.publishsettings
+
+# React
+**/node_modules/
+**/dist/
+**/.env
+**/.env.*
+**/!.env.example
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/

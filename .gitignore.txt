@@ -1,0 +1,55 @@
+
+# =====================================
+# UNIT TEST PROJECT
+# =====================================
+**/GenAI.UnitTests/
+
+
+# =====================================
+# .NET BUILD FILES
+# =====================================
+**/bin/
+**/obj/
+.vs/
+*.user
+*.suo
+
+# Sensitive .NET configuration
+**/appsettings.json
+**/appsettings.Development.json
+**/appsettings.*.local.json
+**/secrets.json
+**/secrets/
+# =====================================
+# AZURE / CERTIFICATES
+# =====================================
+*.pfx
+*.p12
+*.pem
+*.key
+*.publishsettings
+
+# =====================================
+# REACT / NODE
+# =====================================
+**/node_modules/
+**/dist/
+
+# Environment variables
+**/.env
+**/.env.*
+**/!.env.example
+
+# =====================================
+# IDE / OS
+# =====================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# =====================================
+# LOGS
+# =====================================
+*.log
+logs/

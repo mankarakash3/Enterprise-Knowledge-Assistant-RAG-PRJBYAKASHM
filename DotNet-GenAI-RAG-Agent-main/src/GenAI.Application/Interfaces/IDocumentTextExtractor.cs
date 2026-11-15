@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace GenAI.Application.Interfaces
+{
+	public interface IDocumentTextExtractor
+	{
+		Task<string> ExtractTextAsync(
+			Stream fileStream,
+			string fileName,
+			CancellationToken cancellationToken);
+	}
+}
